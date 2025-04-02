@@ -101,8 +101,6 @@ Goutham M
 
 Feel free to contact us with questions or suggestions!
 
-- License information
-- Contact details
 
-The formatting uses standard GitHub Markdown and will display nicely on your repository page.
-New chat
+
+
