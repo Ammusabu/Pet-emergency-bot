@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Emergency Assistance</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="/Pet_emergency_bot/css/styles.css"> 
+  <link rel="stylesheet" href="/Pet_emergency_bot/styles.css?v=4">
+</head>
+<body>
+  <header>
+    <img src="images/logo2.png" alt="LPU Punjab" class="logo">
+    <nav class="top-nav">
+      <a href="#home">Home</a>
+      <a href="#login">Login</a>
+      <a href="#faq">FAQ</a>
+      <a href="#More">Call Vet</a>
+    </nav>
+    <h1>Pet Emergency Assistance</h1>
+    <p class="tagline">24/7 AI-powered guidance for your furry friends</p>
+  </header>
+  <div class="quote-section">
+    <div class="quote-container">
+      <p class="welcome-message">Welcome to Pet Emergency Assistance</p>
+      <div class="quote-box">
+        <p class="quote">"Dogs do speak, but only to those who know how to listen."</p>
+        <p class="author">- Orhan Pamuk</p>
+      </div>
+      <button class="cta-button" onclick="scrollToChat()">Get Help Now</button>
+    </div>
+  </div>
+  <div class="slider">
+    <img src="images/pet1 (2).jpg" alt="Pet Emergency 1">
+    <img src="images/pet9.jpg" alt="Pet Emergency 2">
+    <img src="images/pet7.jpg" alt="Pet Emergency 3">
+    <img src="images/pet8.jpg" alt="Pet Emergency 4">
+    <img src="images/pet3.jpg" alt="Pet Emergency 11">
+    <img src="images/pet0.jpg" alt="Pet Emergency 5">
+    <img src="images/pet1.jpg" alt="Pet Emergency 6">
+    <img src="images/pet6.jpg" alt="Pet Emergency 7">
+    <img src="images/pet1 (1).jpg" alt="Pet Emergency 8">
+    <img src="images/pet4.jpg" alt="Pet Emergency 9">
+    <img src="images/pet5.jpg" alt="Pet Emergency 10">
+  </div>
+
+  <div class="chatbot">
+    <div class="input-group">
+      <div id="chatbot" class="chatbot">
+      <input type="text" id="user-input" placeholder="Ask me Anything...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    
+    <div id="chat-history"></div>
+  </div>
+  
+  <div class="qna-history">
+    <h2>Recently Asked Questions</h2>
+    <div class="history-item1">Q: Why my dog is bleeding?</div>
+    <div class="ans1">A: "🩸 **Serious Bleeding!** Apply **direct pressure** using a clean cloth for 5-10 minutes. If the bleeding does not stop or the wound is deep, wrap it in a bandage and keep your pet as still as possible. **Do not remove any embedded objects!** Get to the vet immediately! **Call 954786214585 for urgent care!**",</div>
+    <div class="history-item2">Q: Why my dog is choking?</div>
+    <div class="ans1">A: "🚨 **Stay calm!** If your pet is choking, quickly check their mouth for any visible objects. Do not blindly reach in, as you may push it further. If you cannot see anything, try the **pet Heimlich maneuver**: For small pets, hold them upside down and give back blows. For larger pets, place your hands on their abdomen and apply quick, inward thrusts. If the choking persists, rush to a vet immediately! **Call 954786214585 now!**",</div>
+    <div id="history-list"></div>
+  </div>
+
+  <div class="common-questions">
+    <h2>Common Pet Emergencies</h2>
+    <div class="question-grid">
+      <button class="common-q" onclick="askCommon('poison')">🐍 Poison Ingestion</button>
+      <button class="common-q" onclick="askCommon('bleeding')">🩸 Bleeding Wound</button>
+      <button class="common-q" onclick="askCommon('choking')">⚠️ Choking Hazard</button>
+      <button class="common-q" onclick="askCommon('heatstroke')">🔥 Heatstroke</button>
+      <button class="common-q" onclick="askCommon('vomiting')">🤢 Vomiting/Diarrhea</button>
+      <button class="common-q" onclick="askCommon('seizure')">⚡ Seizures</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script> <!-- Keep only this line if JS is in root -->
+  <!-- OR if JS is in js folder -->
+  <!-- <script src="js/script.js"></script> -->
+  
+  <footer>
+    <p>Created by <a href="https://yourportfolio.com" target="_blank">Ammu S ,Anandu arun ,Goutham M</a></p>
+  </footer>
+  
+  <div class="emergency-bar">
+    <span>🚨 Emergency Contacts:</span>
+    <div class="numbers">
+      <a href="tel:+911234567890">Vet: +91 1234-567890</a>
+      <a href="tel:+911800123456">Pet Poison Helpline: 1800-123-456</a>
+    </div>
+  </div>
+</body>
+</html>
