@@ -1,7 +1,7 @@
 # pet-emergency-bot
 ## 🐾 Pet Emergency Assistance Bot
 
-![Project Banner](pet0.jpg <!-- Add a banner image if available -->
+![Project Banner](pet0.jpg) <!-- Add a banner image if available -->
 
 A 24/7 AI-powered chatbot that provides immediate guidance for pet emergencies, helping pet owners take the right actions before professional veterinary care is available.
 
