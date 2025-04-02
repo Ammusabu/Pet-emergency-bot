@@ -16,7 +16,7 @@ A 24/7 AI-powered chatbot that provides immediate guidance for pet emergencies, 
 ## 🚀 Live Demo
 
 Access the live version:  
-[https://ammusabu.github.io/Pet-emergency-bot/](https://ammusabu.github.io/Pet-emergency-bot/)
+[https://ammusabu.github.io/Pet-emergency-bot/](https://ammusabu.github.io/pet-emergency-bot/)
 
 ## 🛠️ Technologies Used
 
@@ -41,7 +41,7 @@ Pet_emergency_bot/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ammusabu/Pet_emergency_bot.git
+   git clone https:[//github.com/ammusabu/Pet-emergency-bot.git]
 
 
 ## 🏗️ Setup & Installation
