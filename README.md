@@ -101,31 +101,6 @@ Goutham M
 
 Feel free to contact us with questions or suggestions!
 
-Copy
-
-### How to Use This README:
-
-1. Copy the entire content above
-2. In your GitHub repository:
-   - Click "Add file" → "Create new file"
-   - Name it `README.md`
-   - Paste the content
-   - Commit the changes
-
-### Recommended Next Steps:
-
-1. Add a `LICENSE` file (MIT recommended for open source projects)
-2. Create a `screenshots` folder with images of your interface
-3. Consider adding more detailed documentation if needed
-
-This README includes:
-- Project description
-- Live demo link
-- Technology stack
-- File structure
-- Setup instructions
-- Troubleshooting guide
-- Contribution guidelines
 - License information
 - Contact details
 
