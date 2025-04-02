@@ -6,14 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-  <!-- Use only ONE of these CSS paths -->
   <link rel="stylesheet" href="/pet-emergency-bot/styles.css?v=5">
-  <!-- OR if CSS is in css folder -->
-  <!-- <link rel="stylesheet" href="/pet-emergency-bot/css/styles.css?v=5"> -->
 </head>
 <body>
   <header>
-    <!-- Corrected image path -->
     <img src="/pet-emergency-bot/images/logo2.png" alt="LPU Punjab" class="logo">
     <nav class="top-nav">
       <a href="#home">Home</a>
@@ -24,27 +20,67 @@
     <h1>Pet Emergency Assistance</h1>
     <p class="tagline">24/7 AI-powered guidance for your furry friends</p>
   </header>
-
-  <!-- ... (other HTML content remains the same) ... -->
-
-  <!-- Slider images with corrected paths -->
+  <div class="quote-section">
+    <div class="quote-container">
+      <p class="welcome-message">Welcome to Pet Emergency Assistance</p>
+      <div class="quote-box">
+        <p class="quote">"Dogs do speak, but only to those who know how to listen."</p>
+        <p class="author">- Orhan Pamuk</p>
+      </div>
+      <button class="cta-button" onclick="scrollToChat()">Get Help Now</button>
+    </div>
+  </div>
   <div class="slider">
     <img src="/pet-emergency-bot/images/pet1 (2).jpg" alt="Pet Emergency 1">
     <img src="/pet-emergency-bot/images/pet9.jpg" alt="Pet Emergency 2">
-    <!-- ... other slider images with same path pattern ... -->
+    <img src="/pet-emergency-bot/images/pet7.jpg" alt="Pet Emergency 3">
+    <img src="/pet-emergency-bot/images/pet8.jpg" alt="Pet Emergency 4">
+    <img src="/pet-emergency-bot/images/pet3.jpg" alt="Pet Emergency 11">
+    <img src="/pet-emergency-bot/images/pet0.jpg" alt="Pet Emergency 5">
+    <img src="/pet-emergency-bot/images/pet1.jpg" alt="Pet Emergency 6">
+    <img src="/pet-emergency-bot/images/pet6.jpg" alt="Pet Emergency 7">
+    <img src="/pet-emergency-bot/images/pet1 (1).jpg" alt="Pet Emergency 8">
+    <img src="/pet-emergency-bot/images/pet4.jpg" alt="Pet Emergency 9">
+    <img src="/pet-emergency-bot/images/pet5.jpg" alt="Pet Emergency 10">
   </div>
 
-  <!-- ... (rest of your HTML remains the same) ... -->
+  <div class="chatbot">
+    <div class="input-group">
+      <div id="chatbot" class="chatbot">
+      <input type="text" id="user-input" placeholder="Ask me Anything...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    
+    <div id="chat-history"></div>
+  </div>
+  
+  <div class="qna-history">
+    <h2>Recently Asked Questions</h2>
+    <div class="history-item1">Q: Why my dog is bleeding?</div>
+    <div class="ans1">A: "🩸 **Serious Bleeding!** Apply **direct pressure** using a clean cloth for 5-10 minutes. If the bleeding does not stop or the wound is deep, wrap it in a bandage and keep your pet as still as possible. **Do not remove any embedded objects!** Get to the vet immediately! **Call 954786214585 for urgent care!**",</div>
+    <div class="history-item2">Q: Why my dog is choking?</div>
+    <div class="ans1">A: "🚨 **Stay calm!** If your pet is choking, quickly check their mouth for any visible objects. Do not blindly reach in, as you may push it further. If you cannot see anything, try the **pet Heimlich maneuver**: For small pets, hold them upside down and give back blows. For larger pets, place your hands on their abdomen and apply quick, inward thrusts. If the choking persists, rush to a vet immediately! **Call 954786214585 now!**",</div>
+    <div id="history-list"></div>
+  </div>
+
+  <div class="common-questions">
+    <h2>Common Pet Emergencies</h2>
+    <div class="question-grid">
+      <button class="common-q" onclick="askCommon('poison')">🐍 Poison Ingestion</button>
+      <button class="common-q" onclick="askCommon('bleeding')">🩸 Bleeding Wound</button>
+      <button class="common-q" onclick="askCommon('choking')">⚠️ Choking Hazard</button>
+      <button class="common-q" onclick="askCommon('heatstroke')">🔥 Heatstroke</button>
+      <button class="common-q" onclick="askCommon('vomiting')">🤢 Vomiting/Diarrhea</button>
+      <button class="common-q" onclick="askCommon('seizure')">⚡ Seizures</button>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <!-- Use only ONE of these JS paths -->
   <script src="/pet-emergency-bot/script.js"></script>
-  <!-- OR if JS is in js folder -->
-  <!-- <script src="/pet-emergency-bot/js/script.js"></script> -->
   
   <footer>
-    <p>Created by <a href="https://yourportfolio.com" target="_blank">Ammu S, Anandu arun, Goutham M</a></p>
+    <p>Created by <a href="https://yourportfolio.com" target="_blank">Ammu S ,Anandu arun ,Goutham M</a></p>
   </footer>
   
   <div class="emergency-bar">
