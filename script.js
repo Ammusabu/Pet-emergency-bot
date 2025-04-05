@@ -72,7 +72,7 @@ function getBotResponse(input) {
   4️⃣ Chest compressions\n: If there’s no heartbeat, press firmly on their chest 1-2 times per second.  
   5️⃣ Continue while rushing to the vet!\n **Call 954786214585 for emergency instructions!**`,
 
-  "(heatstroke|overheating)": `🔥 **Heatstroke Emergency!** Move your pet to a **cool, shaded area** immediately. Offer **small amounts of cool water**—do not force them to drink too much at once. Use **cool (not ice-cold) wet towels** on their paws, belly, and neck. If they are panting excessively, weak, or collapsing, rush them to the vet! **Call 954786214585 now!**`
+  "(heatstroke|overheating)": `🔥 Heatstroke Emergency! Move your pet to a **cool, shaded area** immediately. Offer **small amounts of cool water**—do not force them to drink too much at once. Use **cool (not ice-cold) wet towels** on their paws, belly, and neck. If they are panting excessively, weak, or collapsing, rush them to the vet! **Call 954786214585 now!**`
 };
   
 
@@ -82,7 +82,7 @@ function getBotResponse(input) {
     }
   }
   
-  return "I'm a demo bot. For emergencies, call Veterinary Wing: <strong>+91 XXXX-XXXXXX</strong>.";
+  return ""I’m designed to assist with veterinary and pet-related queries. For your request, I recommend contacting the Veterinary Wing directly at +91 95478 6214585 for immediate help. Need something else pet-specific? Ask away! 🐾.";
 }
 const quotes = [
   {
