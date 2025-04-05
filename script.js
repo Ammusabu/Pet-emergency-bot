@@ -82,7 +82,7 @@ function getBotResponse(input) {
     }
   }
   
-  return ""I’m designed to assist with veterinary and pet-related queries. For your request, I recommend contacting the Veterinary Wing directly at +91 95478 6214585 for immediate help. Need something else pet-specific? Ask away! 🐾.";
+  return "I’m designed to assist with veterinary and pet-related queries. For your request, I recommend contacting the Veterinary Wing directly at +91 95478 6214585 for immediate help. Need something else pet-specific? Ask away! 🐾.";
 }
 const quotes = [
   {
